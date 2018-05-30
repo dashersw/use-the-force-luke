@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' 'self'">
+  <title>Hello World!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: black;
+    }
+
+    video {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .graph {
+      top: 0;
+      left: 0;
+      position: absolute;
+      background: white;
+    }
+  </style>
+</head>
+
+<body>
+  <video id="video">
+    <source src="./force.mp4">
+  </video>
+  <!-- <svg width="960" height="500" class="graph"></svg> -->
+  <!-- <script src="d3.js"></script> -->
+  <script src="./app.js"></script>
+</body>
+
+</html>

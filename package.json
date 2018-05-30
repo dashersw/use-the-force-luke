@@ -1,0 +1,27 @@
+{
+  "name": "use-the-force-luke",
+  "version": "1.0.0",
+  "description": "A brain-wave app that lets you use the force",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashersw/use-the-force-luke.git"
+  },
+  "author": "Armagan Amcalar <armagan@amcalar.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashersw/use-the-force-luke/issues"
+  },
+  "homepage": "https://github.com/dashersw/use-the-force-luke#readme",
+  "devDependencies": {
+    "electron": "^2.0.2"
+  },
+  "dependencies": {
+    "fili": "^2.0.1",
+    "mousetrap": "^1.6.1",
+    "wits": "^1.1.1"
+  }
+}
